@@ -1,0 +1,22 @@
+/**
+ * Written by Nicholas Knight
+ */
+import java.util.Scanner;
+public class Zodiac {
+  
+  
+  public static void main(String[] args) { 
+    Scanner keyboard=new Scanner(System.in);
+    System.out.println("Enter your birthday (month day) and we will tell you your Zodiac sign!");
+    int month= keyboard.nextInt();
+    int day=keyboard.nextInt();
+    System.out.println(+month+ " " +day);
+    if((month==1 && day>=20) || (month==2 && day<=18))
+    {
+    System.out.println("Aq");
+    }  
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

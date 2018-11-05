@@ -1,0 +1,60 @@
+/**
+ * Written by Nicholas Knight
+ */
+import java.util.Scanner;
+public class TriangleMaker9000 {
+  
+  
+  public static void main(String[] args) { 
+    Scanner keyboard=new Scanner(System.in);
+    System.out.println("This is the Triangle maker 9001!!"
+                         +"\nEnter the size of the triangle you want and we will make it just for you!");
+    int triangleSize = keyboard.nextInt();
+    //System.out.println(triangleSize); //used to check the triangle size variable
+    int tHeight=triangleSize;
+    int tBase= (triangleSize*2)-1;   //this is what i found that holds true for the base of the triangles
+    //System.out.println(tHeight+ " height");
+    //System.out.println(tBase+ " base");
+    
+    int tHeightPerLevel=1;
+    for(int i=0; i<tBase; i++)
+    {
+      int j=0;
+      
+         for(j=0; j<tHeightPerLevel; j++)
+         {
+           System.out.print("*");
+           //System.out.println(j);
+           //System.out.println(i);   
+         }
+         
+              if(j<tHeight)
+              {
+                tHeightPerLevel++;
+              }
+              else
+              {
+                for(j=0; j<tHeightPerLevel; j++)
+                {
+                  //System.out.print("*");    //this loop is what makes the triangle start over after the peak
+                  tHeightPerLevel--;
+                }
+                //tHeightPerLevel--;
+              }
+              
+              
+              /*
+               * Find a way to lock the triangle into a drecreasing pattern
+               */
+              
+          
+         
+         //System.out.print(tHeightPerLevel);
+     System.out.println(" ");
+    
+    }
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

@@ -1,0 +1,16 @@
+/**
+ * Playing with graphics solo/with book
+ */
+public class Graphics {
+  
+  public Graphics() { 
+    /* YOUR CONSTRUCTOR CODE HERE*/
+  }
+  
+  public static void main(String[] args) { 
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

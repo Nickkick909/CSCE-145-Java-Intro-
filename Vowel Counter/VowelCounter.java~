@@ -1,0 +1,44 @@
+/**
+ * Created by Nicholas Knight
+ */
+import java.util.Scanner;
+public class VowelCounter {
+  
+  enum Vowel{A, E, I, O, U};
+  public static void main(String[] args) { 
+    Scanner keyboard= new Scanner(System.in);
+    System.out.println("Welcome to the vowel counter and sorter!"
+                         +"\nEnter a phrase!");
+    String phrase= keyboard.nextLine();
+    
+    for(int i=0;i<phrase.length();i++)
+    {
+      switch(board[y][x])//not finished
+                 {
+                   case A:
+                     System.out.print("_");
+                     break;
+                   case E:
+                     System.out.print("X");
+                     break;
+                   case I:
+                     System.out.print("#");
+                     break;
+                   case O:
+                     System.out.print("_");
+                     break;
+                   case U:
+          
+                     break;
+                   default:
+                     System.out.print("?");
+                     
+                     
+                 }
+    }
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
