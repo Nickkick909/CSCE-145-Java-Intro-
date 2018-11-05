@@ -1,0 +1,22 @@
+/**
+ * Written by Nicholas Knight
+ */
+import java.util.Scanner;
+
+public class AboveAverageSummer {
+  
+  public static final int NUMBER_OF_DAYS=10;
+  public static void main(String[] args) { 
+    Scanner keyboard= new Scanner(System.in);
+    // create a loop and an array to store and collect the times
+    //find the average
+    //if above average(loop to check all) do something with it
+    /*for(int i=0; i<NUMBER_OF_DAYS; i++)
+     * {
+     * System.out.println("Please enter the temperature for day "(i+1));
+     * //store value in array
+     * }
+     */
+    
+  }
+}

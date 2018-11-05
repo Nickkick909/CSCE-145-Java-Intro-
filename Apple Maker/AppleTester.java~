@@ -1,0 +1,22 @@
+/**
+ * Written by Nicholas Knight
+ */
+public class AppleTester {
+  
+  
+  public static void main(String[] args) { 
+    Cat cat01= new Cat(); //Calls default constructor
+    
+    System.out.println(cat01.getName());
+    cat01.setName("Mr. FlufferKins");
+    System.out.println(cat01.getName());
+    
+    Cat cat02= new Cat("Roscoe the wondercat", 20.1, 4);
+    System.out.println(cat02.getName());
+    System.out.println(cat01);
+    System.out.println(cat02);
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

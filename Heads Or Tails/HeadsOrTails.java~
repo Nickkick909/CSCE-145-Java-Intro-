@@ -1,0 +1,15 @@
+/**
+ * Written by Nicholas Knight
+ */
+import java.util.Scanner;
+import java.util.Random;
+public class HeadsOrTails {
+  
+  
+  public static void main(String[] args) { 
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
